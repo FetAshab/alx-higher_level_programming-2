@@ -6,7 +6,7 @@ if __name__ == "__main__":
         print("{} arguments:".format(num))
     elif num == 1:
         print("{} arguments:".format(num))
-    else: 
+    else:
         print("{} arguments:".format(num))
         for i in range(1, num + 1, 1):
             print("{}: {}".format(i, sys.argv[i]))
